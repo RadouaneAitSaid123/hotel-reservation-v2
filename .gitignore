@@ -1,0 +1,17 @@
+# Fichiers générés par .NET
+bin/
+obj/
+
+# Fichiers spécifiques à Visual Studio
+.vs/
+*.user
+*.suo
+
+# Fichiers de build
+*.dll
+*.exe
+*.pdb
+
+# Autres
+*.cache
+hotel-reservation-DAL/
