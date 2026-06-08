@@ -17,7 +17,7 @@ namespace hotel_reservation_DAL.Entities
         public double Price { get; set; }
         public int? PaymentId { get; set; }
         public virtual Payment Payment { get; set; }
-        [NotMapped] // Exclut Status de la base de données
+        [NotMapped] // Exclut Status de la base de donnï¿½es
         public string Status => PaymentId != null ? "Paid" : "Not Paid";
 
 
